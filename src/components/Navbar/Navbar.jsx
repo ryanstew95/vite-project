@@ -1,9 +1,11 @@
+import styles from "./Navbar.module.css";
+
 export const Navbar = () => {
   return (
-  <nav>
-    <a href="/">Sunny Smiles</a>
-    <div>
-      <ul>
+  <nav className={styles.navbar}>
+    <a className={styles.title} href="/">Sunny Smiles</a>
+    <div className={styles.menu}>
+      <ul className={styles.menuItems}>
         <li>
         <a href="/">Home</a>
           <a href="#about">About</a>
