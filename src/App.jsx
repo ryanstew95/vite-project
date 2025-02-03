@@ -1,9 +1,10 @@
-import './App.css'
-import Navbar from './componets/Navbar/Navbar'
+import styles from './App.module.css'
+import { Navbar } from './components/Navbar/Navbar'
+
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
 <Navbar />
     </div>
   )
