@@ -10,7 +10,8 @@
   text-align: center;
   background-color: #1a1a1a;
   color: white;
-  padding: 40px;
+  padding: 100px;
+
   grid-template-areas: 
     "image1 pasta"
     "image3 title"
@@ -28,8 +29,7 @@
 .image1, .image2, .image3 {
   width: 100%;
   max-width: 400px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(196, 196, 196, 0.353);
+  padding-top: 40px;
 }
 
 /* Pasta Image */
@@ -102,11 +102,16 @@
   .title {
     font-size: 2rem;
     text-align: center;
+    font-size: 4rem;
   }
 
   .textContainer {
     flex-direction: column;
     text-align: center;
     gap: 5px;
+  }
+
+  .text1A, .text1B, .text2A, .text2B {
+    font-size: 2rem;
   }
 }
