@@ -6,18 +6,30 @@ export const Hero = () => {
   return (
     <div className={styles.hero}>
       {/* Top Left Image */}
-      <img className={styles.image1} src={getImageUrl("/kid.png")} alt="Kids eating pasta" />
+      <img
+        className={styles.image1}
+        src={getImageUrl("/kid.png")}
+        alt="Kids eating pasta"
+      />
 
       {/* Top Right Image */}
       <div className={styles.pastaContainer}>
-        <img className={styles.image2} src={getImageUrl("/pasta.png")} alt="Fresh pasta" />
+        <img
+          className={styles.image2}
+          src={getImageUrl("/pasta.png")}
+          alt="Fresh pasta"
+        />
       </div>
 
       {/* Title (Now Below Pasta Image) */}
       <h1 className={styles.title}>Taste of Italy</h1>
 
       {/* Bottom Left Image */}
-      <img className={styles.image3} src={getImageUrl("/wine.png")} alt="Pasta dinner with wine" />
+      <img
+        className={styles.image3}
+        src={getImageUrl("/wine.png")}
+        alt="Pasta dinner with wine"
+      />
 
       {/* Bottom Right Text */}
       <div className={styles.textContainer}>

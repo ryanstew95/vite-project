@@ -9,19 +9,12 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.header}>
-      <img
-          className={styles.logo}
-          src={
-       
-            getImageUrl("/sslogo.png")
-          }
-        
-        />
-      <a className={styles.title} href="/">
-        Sunny Smiles
-      </a>
+        <img className={styles.logo} src={getImageUrl("/sslogo.png")} />
+        <a className={styles.title} href="/">
+          Sunny Smiles
+        </a>
       </div>
-      
+
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -41,13 +34,35 @@ export const Navbar = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a
+              href="#about"
+              onClick={(e) => {
+                e.preventDefault();
+                const aboutSection = document.getElementById("about");
+                if (aboutSection) {
+                  aboutSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              About
+            </a>
           </li>
           <li>
-          <a href="#contact">Contact</a>
+            <a
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Contact
+            </a>
           </li>
           <li>
-            <a href="/menu">Menu</a>
+            <a href="/#/menu">Menu</a>
           </li>
         </ul>
       </div>

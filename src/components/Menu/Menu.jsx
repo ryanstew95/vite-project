@@ -1,12 +1,8 @@
 import React from "react";
+import styles from "./Menu.module.css";
 
 const Menu = () => {
-  return (
-    <div>
-      <h1>Menu Page</h1>
-      <p>Welcome to our menu!</p>
-    </div>
-  );
+  return <div className={styles.menu}>Welcome to our menu!</div>;
 };
 
 export default Menu;
