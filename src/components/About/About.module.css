@@ -1,3 +1,51 @@
 .about {
   color: var(--color-text);
+  background-color: #1a1a1a;
+  padding-bottom: 80px;
+}
+
+.imagePi {
+  width: 500px;
+  height: auto;
+
+}
+
+.imagePa {
+  width: 500px;
+  height: auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  padding-left: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.who {
+  display: flex;
+  flex-direction: row-reverse;
+
+  gap: 20px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+p {
+  font-size: 2.5rem;
 }
