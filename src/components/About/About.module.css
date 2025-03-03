@@ -49,3 +49,31 @@
 p {
   font-size: 2.5rem;
 }
+
+/* 🔹 Responsive Design 🔹 */
+@media screen and (max-width: 830px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .who {
+    flex-direction: column;
+  }
+
+  .imagePi {
+    width: 300px;
+  }
+
+  .imagePa {
+    width: 300px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
