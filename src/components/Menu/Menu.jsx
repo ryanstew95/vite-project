@@ -71,24 +71,24 @@ const Menu = () => {
     {/* fish */}
     <img
         className={styles.menuImages}
-        src={getImageUrl("/salad.png")}
-        alt="salad app"
+        src={getImageUrl("/fish.png")}
+        alt="fish"
       />
-<p>Green salad</p>
-<h2>A garden-fresh salad with seasonal greens and roasted almonds.</h2>
-<h2>Small $3.50</h2>
-<h2>Medium $5.50</h2>
+<p>Fish of the day</p>
+<h2>Fresh catch of the day paired with asparagus & a cream of sweet potato.</h2>
+<h2>$8.00</h2>
+
 </div>
-<div className={styles.tuna}>
+<div>
     {/* ravioli */}
     <img
         className={styles.menuImages}
-        src={getImageUrl("/tuna.png")}
-        alt="tuna app"
+        src={getImageUrl("/ravioli.png")}
+        alt="ravioli"
       />
-<p>Tuna sashimi</p>
-<h2>Seared fresh tuna, fresh herbs, and a touch of chill.</h2>
-<h2>$4.50</h2>
+<p>Hand-made ravioli</p>
+<h2>Artisanal hand-made ravioli, filled with a blend of cheeses in a basil pesto sauce.</h2>
+<h2>$6.50</h2>
 </div>
 </div>
     </div>;
