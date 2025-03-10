@@ -212,6 +212,30 @@ const Menu = () => {
 <h2>$5.50</h2>
 </div>
 </div>
+<div>
+  <hr></hr>
+  <h3 className={styles.subTitle}>Drinks</h3>
+  <hr></hr>
+</div>
+<div className={styles.food}>
+  <div>
+  <p>Healthy smoothie</p>
+<h2>Nourish your body with our selection of healthy smoothies.</h2>
+<h2>$3.00</h2>
+  </div>
+  <div>
+  <p>Fresh juice</p>
+<h2>A refreshing blend of freshly squeezed orange, watermelon, carrot, and ginger.</h2>
+<h2>Small$2.00</h2>
+<h2>Medium $3.00</h2>
+<h2>Large $4.00</h2>
+  </div>
+  <div>
+  <p>Wine</p>
+<h2>Choice of red, white or rose.</h2>
+<h2>$2.00</h2>
+  </div>
+</div>
 <Footer />
     </div>;
 };
