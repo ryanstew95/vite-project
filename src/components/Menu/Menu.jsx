@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Menu.module.css";
 import { getImageUrl } from "../../utils";
+import Footer from "../Footer/Footer";
 
 const Menu = () => {
   return <div className={styles.menu}>
@@ -47,6 +48,7 @@ const Menu = () => {
 <h2>$4.50</h2>
 </div>
 </div>
+{/* mains */}
 <hr></hr>
     <div className={styles.menuTitle}>
       <h3 className={styles.subTitle}>Mains</h3>
@@ -91,6 +93,126 @@ const Menu = () => {
 <h2>$6.50</h2>
 </div>
 </div>
+<div className={styles.food}>
+      <div>
+    {/* schnitzel */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/schnitzel.png")}
+        alt="schnitzel"
+      />
+<p>Schnitzel</p>
+<h2>Crisp and golden on the outside, in a herb and parmesan crumb.</h2>
+<h2>$4.00</h2>
+</div>
+<div>
+    {/* steak */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/steak.png")}
+        alt="Peanut crusted steak"
+      />
+<p>Peanut crusted steak</p>
+<h2>Juicy, tender steak cooked to your liking, served with steamed vegetables.</h2>
+<h2>$8.50</h2>
+
+</div>
+<div>
+    {/* tofu */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/tofu.png")}
+        alt="Tofu skewers"
+      />
+<p>Tofu skewers</p>
+<h2>Grilled tofu skewers, marinated in a blead of soy and sesame with seasonal roast vegetables.</h2>
+<h2>$8.00</h2>
+</div>
+</div>
+
+
+
+{/* desserts */}
+<hr></hr>
+    <div className={styles.menuTitle}>
+      <h3 className={styles.subTitle}>Desserts</h3>
+      <p className={styles.subDescription}>Our desserts are made in house by our pastry chef.</p>
+      </div>
+    <hr></hr>
+    <div className={styles.food}>
+      <div>
+    {/* carrot */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/carrot.png")}
+        alt="carrot cake"
+      />
+<p>Carrot cake</p>
+<h2>Lighty spiced carrot cake layered with cream cheese frosting.</h2>
+<h2>$5.50</h2>
+</div>
+<div>
+    {/* cake */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/cake.png")}
+        alt="cake"
+      />
+<p>Classic cheesecake</p>
+<h2>Topped with a layer of raspberry jam & sliced strawberries.</h2>
+<h2>$6.50</h2>
+
+</div>
+<div>
+    {/* mousse */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/mousse.png")}
+        alt="mousse"
+      />
+<p>Chocolate mousse</p>
+<h2>Our delicate, yet rich signature chocolate mousse dessert.</h2>
+<h2>Single $4.00</h2>
+<h2>Double $7.00</h2>
+</div>
+</div>
+<div className={styles.food}>
+      <div>
+    {/* brownie */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/brownie.png")}
+        alt="brownie"
+      />
+<p>Brownie</p>
+<h2>Crisp and golden on the outside, in a herb and parmesan crumb.</h2>
+<h2>$5.00</h2>
+</div>
+<div>
+    {/* icecream */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/icecream.png")}
+        alt="ice cream"
+      />
+<p>Sticky date & ice cream</p>
+<h2>Served with vanilla ice cream, toffee sauce & a peanut crumble.</h2>
+<h2>$6.00</h2>
+
+</div>
+<div>
+    {/* pie */}
+    <img
+        className={styles.menuImages}
+        src={getImageUrl("/pie.png")}
+        alt="lemon pie"
+      />
+<p>Lemon meringue pie</p>
+<h2>Zesty lemon meringue, a pistachio crumble, served with a chantilly cream.</h2>
+<h2>$5.50</h2>
+</div>
+</div>
+<Footer />
     </div>;
 };
 
