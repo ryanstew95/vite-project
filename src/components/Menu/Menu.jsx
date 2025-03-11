@@ -236,6 +236,23 @@ const Menu = () => {
 <h2>$2.00</h2>
   </div>
 </div>
+<div className={styles.food}>
+  <div>
+  <p>Soft drink</p>
+<h2>Soda, Sprite, Pepsi & Diet Coke</h2>
+<h2>$1.50</h2>
+  </div>
+  <div>
+  <p>Coffee</p>
+<h2>Locally roasted coffee, brewed in-house</h2>
+<h2>$2.50</h2>
+  </div>
+  <div>
+  <p>Cocktail</p>
+<h2>Aperol Spriz, Gin & Tonic, Mojito</h2>
+<h2>$1.50</h2>
+  </div>
+</div>
 <Footer />
     </div>;
 };
